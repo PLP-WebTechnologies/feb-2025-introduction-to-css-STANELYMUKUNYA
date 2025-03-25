@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif; /* Example font */
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: wheat;
+    padding: 20px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+#page-title { /* ID selector */
+    color: #333;
+    text-align: center;
+    font-family: 'Georgia', serif; /*Different font*/
+    margin-bottom: 30px;
+}
+
+.img-style { /* Class selector*/
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    border: 5px solid skyblue; /* Border example */
+    border-radius: 10px;
+    padding: 10px; /*Padding Example*/
+}
+
+.content-section { /*Class selector*/
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid beige;
+    background-color: ghostwhite;
+}
+
+p {
+    line-height: 1.6;
+    color: burlywood;
+    margin-bottom: 10px;
+}
